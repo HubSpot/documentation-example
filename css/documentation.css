@@ -25,6 +25,7 @@ pre {
 
 .hs-documentation-sidenav {
     margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 .hs-documentation-content {
@@ -34,6 +35,7 @@ pre {
 
 .hs-documentation-content > *:first-child {
     margin-top: 0;
+    line-height: 40px;
 }
 
 .hs-public-sidenav li.current-nav-item {
