@@ -23,17 +23,17 @@ pre {
     line-height: 24px;
 }
 
-.hs-documentation-sidenav {
+.hs-doc-sidenav {
     margin-right: 20px;
     margin-bottom: 40px;
 }
 
-.hs-documentation-content {
+.hs-doc-content {
     margin-bottom: 40px;
     min-height: 600px;
 }
 
-.hs-documentation-content > *:first-child {
+.hs-doc-content > *:first-child {
     margin-top: 0;
     line-height: 40px;
 }
