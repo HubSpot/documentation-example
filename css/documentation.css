@@ -1,3 +1,12 @@
+#hs-nav-v3 > .hs-nav-section.main-nav {
+    background: #333;
+    box-shadow: none;
+}
+
+#hs-nav-v3 * {
+    text-shadow: none !important;
+}
+
 ::selection {
     background: #495b67;
     color: #fff;
@@ -11,6 +20,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .hs-public-sidenav li.current-nav-item a {
     color: #333;
+}
+
+@media (max-width: 767px) {
+    .hs-public-sidenav {
+        background: #fff;
+        border-color: #eee;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .hs-public-sidenav:hover li.current-nav-item:first-child,
+    .hs-public-sidenav:hover li.current-nav-item:last-child {
+        border-radius: 0;
+    }
+
+    .hs-public-sidenav:hover li.current-nav-item {
+        border-color: #eee;
+        background: #eee;
+    }
 }
 
 h1 {
@@ -62,15 +90,12 @@ pre {
     -moz-border-radius: 0;
     border-radius: 0;
     background: #eee;
-    border: 0;
+    border-color: #eee;
 }
 
-.hs-public-sidenav li.current-nav-item:after {
-    border-left-color: #eee;
-}
-
+.hs-public-sidenav li.current-nav-item:after,
 .hs-public-sidenav li.current-nav-item:before {
-    display: none;
+    border-left-color: #eee;
 }
 
 /* http://getbootstrap.com/assets/css/docs.css */
