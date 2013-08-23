@@ -4,6 +4,15 @@
     text-shadow: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    color: #333;
+}
+
+.hs-public-sidenav li.current-nav-item a {
+    color: #333;
+}
+
 h1 {
     margin: 0 0 20px;
 }
@@ -13,11 +22,9 @@ code, pre {
 }
 
 pre {
-    background-color: #f6f6f6;
-    border: 1px solid #ccc;
-    color: #495b67;
+    background-color: #eee;
+    color: #333;
     padding: 8px 12px;
-    border-radius: 6px;
     overflow-x: auto;
     font-size: 14px;
     line-height: 24px;
@@ -33,6 +40,15 @@ pre {
     min-height: 600px;
 }
 
+.hs-doc-content h1,
+.hs-doc-content h2,
+.hs-doc-content h3,
+.hs-doc-content h4,
+.hs-doc-content h5,
+.hs-doc-content h6 {
+    font-weight: 600;
+}
+
 .hs-doc-content > *:first-child {
     margin-top: 0;
     line-height: 40px;
@@ -42,6 +58,19 @@ pre {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #eee;
+    border: 0;
+}
+
+.hs-public-sidenav li.current-nav-item:after {
+    border-left-color: #eee;
+}
+
+.hs-public-sidenav li.current-nav-item:before {
+    display: none;
 }
 
 /* http://getbootstrap.com/assets/css/docs.css */
@@ -55,6 +84,11 @@ pre {
 }
 
 .hs-doc-callout h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hs-doc-callout h4 + p {
     margin-top: 0;
 }
 
