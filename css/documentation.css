@@ -43,3 +43,43 @@ pre {
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+/* http://getbootstrap.com/assets/css/docs.css */
+
+/* Callouts */
+
+.hs-doc-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+}
+
+.hs-doc-callout h4 {
+    margin-top: 0;
+}
+
+.hs-doc-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.hs-doc-callout code,
+.hs-doc-callout .highlight {
+    background-color: #fff;
+}
+
+/* Callout variations */
+
+.hs-doc-callout-danger {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+
+.hs-doc-callout-warning {
+    background-color: #fefbed;
+    border-color: #f1e7bc;
+}
+
+.hs-doc-callout-info {
+    background-color: #f0f7fd;
+    border-color: #d0e3f0;
+}
