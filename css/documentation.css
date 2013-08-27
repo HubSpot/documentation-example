@@ -165,6 +165,18 @@ pre {
     border-left-color: #eee;
 }
 
+.hs-public-sidenav li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hs-public-sidenav li b {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "proxima-nova", sans-serif;
+}
+
 /* http://getbootstrap.com/assets/css/docs.css */
 
 /* Callouts */
