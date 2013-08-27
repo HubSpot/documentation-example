@@ -32,6 +32,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 36px;
 }
 
+.hs-doc-marquee h1 {
+    font-size: 40px;
+}
+
+.hs-doc-marquee h2 {
+    font-size: 26px;
+}
+
+.hs-doc-marquee h1, .hs-doc-marquee h2 {
+    margin: 0;
+}
+
 .hs-public-sidenav li.current-nav-item a {
     color: #333;
 }
