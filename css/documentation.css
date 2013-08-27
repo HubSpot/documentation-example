@@ -107,6 +107,11 @@ pre {
     font-weight: 600;
 }
 
+.hs-doc-content ul,
+.hs-doc-content ol {
+    margin-left: 2em;
+}
+
 .hs-doc-content > *:first-child {
     margin-top: 0;
     line-height: 40px;
