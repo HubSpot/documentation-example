@@ -4,6 +4,7 @@
 
 #hs-nav-v3 > .hs-nav-section.main-nav {
     background: #333;
+    border-color: #333;
     box-shadow: none;
 }
 
@@ -23,13 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hs-doc-marquee {
-    background-color: #f6f6f6;
-    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    border: 0;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
     position: relative;
     margin-top: -26px;
     margin-bottom: 36px;
+}
+
+.hs-doc-marquee * {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .hs-doc-marquee h1 {
@@ -38,10 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .hs-doc-marquee h2 {
     font-size: 26px;
-}
-
-.hs-doc-marquee h1, .hs-doc-marquee h2 {
-    margin: 0;
 }
 
 .hs-public-sidenav li.current-nav-item a {
