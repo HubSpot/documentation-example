@@ -165,7 +165,7 @@ pre {
     border-left-color: #eee;
 }
 
-.hs-public-sidenav li {
+.hs-public-sidenav li * {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
