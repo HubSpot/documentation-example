@@ -190,6 +190,6 @@ This is a warning callout:
 This is a danger callout:
 
 <div class="hs-doc-callout hs-doc-callout-danger">
-<h4>Dange danger callout</h4>
+<h4>Danger callout</h4>
 <p>I am a danger callout.</p>
 </div>
