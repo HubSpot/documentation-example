@@ -1,0 +1,4 @@
+title: "documentation-example"
+description: "Example documentation for a HubSpot open-source project"
+source: "*.coffee"
+examples: "**/*.md"
